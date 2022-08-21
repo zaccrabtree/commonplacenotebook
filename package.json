@@ -1,0 +1,23 @@
+{
+  "name": "homeschooling-crud-app",
+  "version": "1.0.0",
+  "description": "My first attempt at a CRUD app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaccrabtree/homeschoolapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaccrabtree/homeschoolapp/issues"
+  },
+  "homepage": "https://github.com/zaccrabtree/homeschoolapp#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}

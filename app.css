@@ -1,0 +1,66 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 50px;
+    background-image: url("notebook.jpg");
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+  
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 206, 161, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .fa-plus {
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+  }
+
+  #msg1, #msg2 {
+    color: red;
+  }
+
+  #modal-body span {
+    color: red;
+  }
+
+  #quotes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #quotes div {
+    border: 3px solid #abcea1;
+    background-color: #e2eede;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+    text-align: justify;
+  }
+
+  #quotes div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #quotes div .options i {
+    cursor: pointer;
+  }
+
+div {
+    inline-size:auto;
+    overflow-wrap: break-word;
+}
+
